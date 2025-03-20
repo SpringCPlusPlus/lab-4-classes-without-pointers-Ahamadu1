@@ -1,6 +1,7 @@
 #include "Rectangle.h"
-
 // put in the code for the constructors
+Rectangle(Point p): topLeft(p){}
+Rectangle(Point p, double w, double h): topLeft(p),width(w),height(h){}
 
 void Rectangle::set_width(double w) { width = w; }
 void Rectangle::set_height(double h) { height = h; }
